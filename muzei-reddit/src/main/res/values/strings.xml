@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">Muzei Reddit</string>
+    <string name="app_description">A source that draws from Reddit! Currently only from EarthPorn.</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 

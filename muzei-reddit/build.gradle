@@ -1,4 +1,5 @@
 apply plugin: 'android'
+apply plugin: 'maven'
 
 android {
     compileSdkVersion 19
@@ -23,5 +24,11 @@ android {
     }
 }
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
+    compile 'com.google.android.apps.muzei:muzei-api:+'
+    compile 'com.squareup.retrofit:retrofit:+'
 }
